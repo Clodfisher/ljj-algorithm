@@ -26,9 +26,6 @@ BOOL isLinkSycle(TESTNODE *pstHead);
 TESTNODE *linkMerge(TESTNODE	*pstFistHead, TESTNODE *pstSecondHead);
 VOID linkFindMiddleNode(TESTNODE *pstHead);
 
-
-
-
 S32 main(S32 argc, CHAR *argv[])
 {
 	CHAR 		atestData1[] = {'a', 'c','e'};
