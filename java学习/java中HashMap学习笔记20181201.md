@@ -18,7 +18,7 @@ public class Employee
 
 ```    
 
-4、go和python中也是用目录当做包，go中是在每个源码文件中指定package packname，python中是在目录下简历一个__init__.py文件，说明该目录是包   
+4、go和python中也是用目录当做包，go中是在每个源码文件中指定package packname，则该源代码数据该包，导入的时候只能导入包的名字。python中是在目录下建立一个__init__.py文件，说明该目录是包，目录下的所有.py文件都属于该包，使用时导入比较随意。 
 5、java中可以在eclips中查看库的源码文件，方法如下（亲测可用）：   
 
 设置： 
